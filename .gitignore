@@ -1,4 +1,7 @@
 *.dict
 *.index
 a.out
+dictparse
 output.txt
+.vscode
+*.o
