@@ -59,7 +59,7 @@ void parse_headword_index(FILE* file, definition_index* index) {
 
 static void str_replace(char* str, char target, char replacement) {
   size_t len = strlen(str);
-  for (int i = 0; i < len; i++) {
+  for (size_t i = 0; i < len; i++) {
     if (str[i] == target) {
       str[i] = replacement;
     }
